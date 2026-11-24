@@ -90,7 +90,7 @@
 
 3.git diff:
 
-![alt text](screenshot/скр3-1.png)
+![alt text](screenshot/скр3.png)
 
 4.git diff --staged:
 
@@ -112,7 +112,7 @@
 
 9.git diff:
 
-![alt text](screenshot/скр9-1.png)
+![alt text](screenshot/скр9.png)
 
 10.git diff --staged:
 
