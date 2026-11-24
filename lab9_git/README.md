@@ -10,7 +10,7 @@
 
 3.Создаем файл sort.c и вставляем туда данную функцию сортировки:
 
-![alt text](screenshot_3.2.png)
+![alt text](screenshot/screenshot_3.png)
 
 4.Как сейчас выглядит вывод git status:
 
