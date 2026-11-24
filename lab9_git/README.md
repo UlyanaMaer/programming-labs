@@ -79,3 +79,33 @@
 ![alt text](image-6.png)
 ![alt text](image-7.png)
 
+## Оценка 4
+1.Убедимся, что находимся на ветке mybranch:
+
+![alt text](скр1.png)
+
+2.Перезапишим содержимое в sort.c  добавив функцию main():
+
+![alt text](скр2.png)
+
+3.git diff:
+
+![alt text](скр3-1.png)
+
+4.git diff --staged:
+
+![alt text](скр4.png)
+
+5.Добавим в staged файл sort.c:
+
+![alt text](скр5.png)
+
+6.git diff:
+
+![alt text](скр6.png)
+
+7.git diff --staged:
+
+![alt text](скр7.png)
+
+8: ![alt text](скр8.png)
