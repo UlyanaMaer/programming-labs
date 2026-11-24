@@ -68,6 +68,7 @@
 17.Запушили на удалённый репо с помощью команды git push.
 
 Ветки:
+
 ![alt text](screenshot/скрин_1.png)
 ![alt text](screenshot/скрин_2.png)
 ![alt text](screenshot/image.png)
