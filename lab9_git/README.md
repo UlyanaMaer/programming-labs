@@ -236,4 +236,21 @@ git diff --staged — индекс с последним коммитом.
 
 15.Удалите ветку с заглавными буквами (feature/uppercase):
 
+![alt text](screenshot/скр_15.png)
+
+16.Смержить ветку mybranch в master (git merge):
+
+![alt text](screenshot/скр_16.png)
+
+17.Что выводит git log --oneline --graph –all:
+
+![alt text](screenshot/скр_17.png)
+
+18.Запушить изменения ветки master на удаленный репо c помощью команды git push origin main:
+
+![alt text](screenshot/скр_18.png)
+
+19.Запушить документ с результатами работы, через git push origin main.
+
+
 
