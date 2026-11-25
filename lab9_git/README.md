@@ -169,3 +169,71 @@ git diff --staged — индекс с последним коммитом.
 ![alt text](screenshot/скр22.png)
  
 23.Запушим на удаленный репо ветку
+
+Ветки:
+
+1.Создать файл greeting.txt, проиндексировать его и закоммитить с
+сообщением “Add file greeting.txt”:
+
+![alt text](screenshot/скр_1.png)
+
+2.Добавить в этот файл слово hello, индексируем и коммитим с текстом
+"Add content to greeting.txt":
+
+![alt text](screenshot/скр_2.png)
+
+3.Создайте ветку с именем feature/uppercase (да, feature/uppercase — это
+совершенно допустимое имя ветки и общепринятое соглашение):
+
+
+![alt text](screenshot/скр_3.png)
+
+4.Переключитесь на эту ветку:
+
+![alt text](screenshot/скр_4.png)
+
+5.Каков вывод git status:
+
+![alt text](screenshot/скр_5.png)
+
+6.Отредактируйте greeting.txt, чтобы он содержал приветствие в верхнем
+регистре (HELLO):
+
+![alt text](screenshot/скр_6.png)
+
+7.Добавьте файл greeting.txt и закоммитьте:
+
+![alt text](screenshot/скр_7.png)
+
+8.Каков вывод git branch:
+
+![alt text](screenshot/скр_8.png)
+
+9.Каков вывод git log --oneline --graph –all:
+
+![alt text](screenshot/скр_9.1.png)
+![alt text](screenshot/скр_9.2.png)
+
+10.Переключитесь на главную ветку:
+
+![alt text](screenshot/скр_10.png)
+
+11.Используйте cat, чтобы увидеть содержимое файла greetings.txt:
+
+![alt text](screenshot/скр_11.png)
+
+12.Сравните ветки:
+
+![alt text](screenshot/скр_12.png)
+
+13.Объедините ветки:
+
+![alt text](screenshot/скр_13.png)
+
+14.Используйте cat, чтобы увидеть содержимое файла greetings.txt
+
+![alt text](screenshot/скр_14.png)
+
+15.Удалите ветку с заглавными буквами (feature/uppercase):
+
+
