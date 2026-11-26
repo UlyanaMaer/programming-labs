@@ -303,6 +303,66 @@ git mergetool:
 
 11.Запушить изменения:
 
+![alt text](screenshot/скр5_11.png)
+
+
+Merge конфликты для сортировки MergeSort на python:
+
+1.Находясь в ветке master создадим файл mergesort.py с содержимым из base.py:
+
+![alt text](screenshot/scr_1.png)
+![alt text](screenshot/scr_2.png)
+
+2.Проиндексируем файл и закоммитим:
+
+![alt text](screenshot/scr_2_2.png)
+
+3.Создадим новую ветку Mergesort-Impl и переключимся на нее:
+
+![alt text](screenshot/scr_3.png)
+
+4.Содержимое файла mergesort.py заменим на код из righty.py:
+
+![alt text](screenshot/scr_4.png)
+
+5.Коммитим изменения:
+
+![alt text](screenshot/scr_5.png)
+
+6.Переключаемся на master и меняем все содержимое mergesort.py на lefty.py:
+
+![alt text](screenshot/scr_6.png)
+![alt text](screenshot/scr_6_2.png)
+
+7.Коммитим изменения:
+
+![alt text](screenshot/scr_7.png)
+
+8.Что показывает git log --oneline –graph:
+
+![alt text](screenshot/scr_8.png)
+
+9.Что показывает git branch:
+
+![alt text](screenshot/scr_9.png)
+
+10.Необходимо смержить Mergesort-Impl в master:
+
+![alt text](screenshot/scr_!0.png)
+
+11.После исправления всех merge конфликтов запушить в main изменения
+
+12.Запушить документ с результатами вашей работы:
+
+
+
+
+
+
+
+
+
+
 
 
 
