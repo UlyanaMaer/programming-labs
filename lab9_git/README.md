@@ -252,5 +252,57 @@ git diff --staged — индекс с последним коммитом.
 
 19.Запушить документ с результатами работы, через git push origin main.
 
+## Оценка 5
+
+1.Создать ветку branch1, переключиться на нее:
+
+![alt text](screenshot/скр5_1.png)
+
+2.Выполнить команду $ echo "This is a relevant fact" > file.txt:
+
+![alt text](screenshot/скр5_2.png)
+
+3.Закоммитить это изменение:
+
+![alt text](screenshot/скр5_3.png)
+
+4.Переключиться на главную ветку и выполнить команду echo "This is an indispensable truth!" > file.txt:
+
+![alt text](screenshot/скр5_4.png)
+
+5.Закоммитить изменения в master:
+
+![alt text](screenshot/скр5_5.png)
+
+6.Каков вывод git log --oneline --graph –all:
+
+![alt text](screenshot/скр5_6.png)
+
+7.Использовать команду git merge чтобы смержить ветку branch1 в master:
+
+![alt text](screenshot/скр5_7.png)
+
+8.Что показывает git status:
+
+![alt text](screenshot/скр5_8.png)
+
+9.Посмотреть содержимое файла file.txt и в любом любимом текстовом
+редакторе исправьте конфликт. Желательно делать это в VSCode или
+любой другой умной среде, но если нет vscode, то можно через команду
+git mergetool:
+
+![alt text](screenshot/скр5_9_!.png)
+![alt text](screenshot/скр5_9_2.png)
+исправила:
+![alt text](screenshot/скр5_9_3.png)
+![alt text](screenshot/скр5_9_4.png)
+
+10.Что показывает git log --oneline –graph:
+
+![alt text](screenshot/скр5_10.png)
+
+11.Запушить изменения:
+
+
 
 
