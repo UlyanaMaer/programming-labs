@@ -294,6 +294,8 @@ git mergetool:
 ![alt text](screenshot/скр5_9_!.png)
 ![alt text](screenshot/скр5_9_2.png)
 исправила:
+
+
 ![alt text](screenshot/скр5_9_3.png)
 ![alt text](screenshot/скр5_9_4.png)
 
